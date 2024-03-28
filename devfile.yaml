@@ -28,8 +28,8 @@ components:
       deployment/cpuRequest: 10m
       deployment/memoryRequest: 50Mi
       deployment/container-port: 3001
-    kubernetes:
-      uri: deploy.yaml
+    openshift:
+      uri: temp.yaml
       endpoints:
         - name: http-3001
           targetPort: 3001
